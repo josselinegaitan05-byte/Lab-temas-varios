@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Escenario1_CRUD_SQL/Escenario1_CRUD_SQL.csproj" />
+  <Project Path="Escenario2_Sobrecarga_Recursividad/Escenario2_Sobrecarga_Recursividad.csproj" />
+  <Project Path="Escenario3_Frecuencias/Escenario3_Frecuencias.csproj" />
+</Solution>

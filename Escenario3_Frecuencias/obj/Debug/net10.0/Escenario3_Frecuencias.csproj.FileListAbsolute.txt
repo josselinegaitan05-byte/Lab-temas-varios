@@ -1,0 +1,15 @@
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario3_Frecuencias\bin\Debug\net10.0\Escenario3_Frecuencias.exe
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario3_Frecuencias\bin\Debug\net10.0\Escenario3_Frecuencias.deps.json
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario3_Frecuencias\bin\Debug\net10.0\Escenario3_Frecuencias.runtimeconfig.json
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario3_Frecuencias\bin\Debug\net10.0\Escenario3_Frecuencias.dll
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario3_Frecuencias\bin\Debug\net10.0\Escenario3_Frecuencias.pdb
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario3_Frecuencias\obj\Debug\net10.0\Escenario3_Frecuencias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario3_Frecuencias\obj\Debug\net10.0\Escenario3_Frecuencias.AssemblyInfoInputs.cache
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario3_Frecuencias\obj\Debug\net10.0\Escenario3_Frecuencias.AssemblyInfo.cs
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario3_Frecuencias\obj\Debug\net10.0\Escenario3_Frecuencias.csproj.CoreCompileInputs.cache
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario3_Frecuencias\obj\Debug\net10.0\Escenario3_Frecuencias.dll
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario3_Frecuencias\obj\Debug\net10.0\refint\Escenario3_Frecuencias.dll
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario3_Frecuencias\obj\Debug\net10.0\Escenario3_Frecuencias.pdb
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario3_Frecuencias\obj\Debug\net10.0\Escenario3_Frecuencias.genruntimeconfig.cache
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario3_Frecuencias\obj\Debug\net10.0\ref\Escenario3_Frecuencias.dll
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario3_Frecuencias\obj\Debug\net10.0\Escenari.574B7E9D.Up2Date
