@@ -1,0 +1,15 @@
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario1_CRUD_SQL\bin\Debug\net10.0\Escenario1_CRUD_SQL.exe
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario1_CRUD_SQL\bin\Debug\net10.0\Escenario1_CRUD_SQL.deps.json
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario1_CRUD_SQL\bin\Debug\net10.0\Escenario1_CRUD_SQL.runtimeconfig.json
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario1_CRUD_SQL\bin\Debug\net10.0\Escenario1_CRUD_SQL.dll
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario1_CRUD_SQL\bin\Debug\net10.0\Escenario1_CRUD_SQL.pdb
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario1_CRUD_SQL\obj\Debug\net10.0\Escenario1_CRUD_SQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario1_CRUD_SQL\obj\Debug\net10.0\Escenario1_CRUD_SQL.AssemblyInfoInputs.cache
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario1_CRUD_SQL\obj\Debug\net10.0\Escenario1_CRUD_SQL.AssemblyInfo.cs
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario1_CRUD_SQL\obj\Debug\net10.0\Escenario1_CRUD_SQL.csproj.CoreCompileInputs.cache
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario1_CRUD_SQL\obj\Debug\net10.0\Escenario1_CRUD_SQL.dll
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario1_CRUD_SQL\obj\Debug\net10.0\refint\Escenario1_CRUD_SQL.dll
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario1_CRUD_SQL\obj\Debug\net10.0\Escenario1_CRUD_SQL.pdb
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario1_CRUD_SQL\obj\Debug\net10.0\Escenario1_CRUD_SQL.genruntimeconfig.cache
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario1_CRUD_SQL\obj\Debug\net10.0\ref\Escenario1_CRUD_SQL.dll
+C:\Users\josse\Downloads\Lab_Sobrecarga_CRUD (1)\Lab_Sobrecarga_CRUD\Escenario1_CRUD_SQL\obj\Debug\net10.0\Escenari.BF414842.Up2Date
