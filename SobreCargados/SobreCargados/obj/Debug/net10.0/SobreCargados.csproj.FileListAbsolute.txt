@@ -1,0 +1,44 @@
+C:\Users\julia\OneDrive\Documentos\HPA III\SobreCargados\SobreCargados\bin\Debug\net10.0\SobreCargados.exe
+C:\Users\julia\OneDrive\Documentos\HPA III\SobreCargados\SobreCargados\bin\Debug\net10.0\SobreCargados.deps.json
+C:\Users\julia\OneDrive\Documentos\HPA III\SobreCargados\SobreCargados\bin\Debug\net10.0\SobreCargados.runtimeconfig.json
+C:\Users\julia\OneDrive\Documentos\HPA III\SobreCargados\SobreCargados\bin\Debug\net10.0\SobreCargados.dll
+C:\Users\julia\OneDrive\Documentos\HPA III\SobreCargados\SobreCargados\bin\Debug\net10.0\SobreCargados.pdb
+C:\Users\julia\OneDrive\Documentos\HPA III\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julia\OneDrive\Documentos\HPA III\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.AssemblyInfoInputs.cache
+C:\Users\julia\OneDrive\Documentos\HPA III\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.AssemblyInfo.cs
+C:\Users\julia\OneDrive\Documentos\HPA III\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.csproj.CoreCompileInputs.cache
+C:\Users\julia\OneDrive\Documentos\HPA III\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.dll
+C:\Users\julia\OneDrive\Documentos\HPA III\SobreCargados\SobreCargados\obj\Debug\net10.0\refint\SobreCargados.dll
+C:\Users\julia\OneDrive\Documentos\HPA III\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.pdb
+C:\Users\julia\OneDrive\Documentos\HPA III\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.genruntimeconfig.cache
+C:\Users\julia\OneDrive\Documentos\HPA III\SobreCargados\SobreCargados\obj\Debug\net10.0\ref\SobreCargados.dll
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\SobreCargados\SobreCargados\bin\Debug\net10.0\SobreCargados.exe
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\SobreCargados\SobreCargados\bin\Debug\net10.0\SobreCargados.deps.json
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\SobreCargados\SobreCargados\bin\Debug\net10.0\SobreCargados.runtimeconfig.json
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\SobreCargados\SobreCargados\bin\Debug\net10.0\SobreCargados.dll
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\SobreCargados\SobreCargados\bin\Debug\net10.0\SobreCargados.pdb
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.AssemblyInfoInputs.cache
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.AssemblyInfo.cs
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.csproj.CoreCompileInputs.cache
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.dll
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\SobreCargados\SobreCargados\obj\Debug\net10.0\refint\SobreCargados.dll
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.pdb
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.genruntimeconfig.cache
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\SobreCargados\SobreCargados\obj\Debug\net10.0\ref\SobreCargados.dll
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCar.0C63CE07.Up2Date
+C:\Users\chels\Documents\HPA III\Temas varios\SobreCargados\SobreCargados\bin\Debug\net10.0\SobreCargados.exe
+C:\Users\chels\Documents\HPA III\Temas varios\SobreCargados\SobreCargados\bin\Debug\net10.0\SobreCargados.deps.json
+C:\Users\chels\Documents\HPA III\Temas varios\SobreCargados\SobreCargados\bin\Debug\net10.0\SobreCargados.runtimeconfig.json
+C:\Users\chels\Documents\HPA III\Temas varios\SobreCargados\SobreCargados\bin\Debug\net10.0\SobreCargados.dll
+C:\Users\chels\Documents\HPA III\Temas varios\SobreCargados\SobreCargados\bin\Debug\net10.0\SobreCargados.pdb
+C:\Users\chels\Documents\HPA III\Temas varios\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chels\Documents\HPA III\Temas varios\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.AssemblyInfoInputs.cache
+C:\Users\chels\Documents\HPA III\Temas varios\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.AssemblyInfo.cs
+C:\Users\chels\Documents\HPA III\Temas varios\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.csproj.CoreCompileInputs.cache
+C:\Users\chels\Documents\HPA III\Temas varios\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.dll
+C:\Users\chels\Documents\HPA III\Temas varios\SobreCargados\SobreCargados\obj\Debug\net10.0\refint\SobreCargados.dll
+C:\Users\chels\Documents\HPA III\Temas varios\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.pdb
+C:\Users\chels\Documents\HPA III\Temas varios\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCargados.genruntimeconfig.cache
+C:\Users\chels\Documents\HPA III\Temas varios\SobreCargados\SobreCargados\obj\Debug\net10.0\ref\SobreCargados.dll
+C:\Users\chels\Documents\HPA III\Temas varios\SobreCargados\SobreCargados\obj\Debug\net10.0\SobreCar.0C63CE07.Up2Date
