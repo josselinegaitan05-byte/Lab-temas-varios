@@ -1,0 +1,44 @@
+C:\Users\julia\OneDrive\Documentos\HPA III\Ejemplos28-9\Frecuencias\Frecuencias\Frecuencias\bin\Debug\net10.0\Frecuencias.exe
+C:\Users\julia\OneDrive\Documentos\HPA III\Ejemplos28-9\Frecuencias\Frecuencias\Frecuencias\bin\Debug\net10.0\Frecuencias.deps.json
+C:\Users\julia\OneDrive\Documentos\HPA III\Ejemplos28-9\Frecuencias\Frecuencias\Frecuencias\bin\Debug\net10.0\Frecuencias.runtimeconfig.json
+C:\Users\julia\OneDrive\Documentos\HPA III\Ejemplos28-9\Frecuencias\Frecuencias\Frecuencias\bin\Debug\net10.0\Frecuencias.dll
+C:\Users\julia\OneDrive\Documentos\HPA III\Ejemplos28-9\Frecuencias\Frecuencias\Frecuencias\bin\Debug\net10.0\Frecuencias.pdb
+C:\Users\julia\OneDrive\Documentos\HPA III\Ejemplos28-9\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julia\OneDrive\Documentos\HPA III\Ejemplos28-9\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.AssemblyInfoInputs.cache
+C:\Users\julia\OneDrive\Documentos\HPA III\Ejemplos28-9\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.AssemblyInfo.cs
+C:\Users\julia\OneDrive\Documentos\HPA III\Ejemplos28-9\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.csproj.CoreCompileInputs.cache
+C:\Users\julia\OneDrive\Documentos\HPA III\Ejemplos28-9\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.dll
+C:\Users\julia\OneDrive\Documentos\HPA III\Ejemplos28-9\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\refint\Frecuencias.dll
+C:\Users\julia\OneDrive\Documentos\HPA III\Ejemplos28-9\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.pdb
+C:\Users\julia\OneDrive\Documentos\HPA III\Ejemplos28-9\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.genruntimeconfig.cache
+C:\Users\julia\OneDrive\Documentos\HPA III\Ejemplos28-9\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\ref\Frecuencias.dll
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Frecuencias\Frecuencias\Frecuencias\bin\Debug\net10.0\Frecuencias.exe
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Frecuencias\Frecuencias\Frecuencias\bin\Debug\net10.0\Frecuencias.deps.json
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Frecuencias\Frecuencias\Frecuencias\bin\Debug\net10.0\Frecuencias.runtimeconfig.json
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Frecuencias\Frecuencias\Frecuencias\bin\Debug\net10.0\Frecuencias.dll
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Frecuencias\Frecuencias\Frecuencias\bin\Debug\net10.0\Frecuencias.pdb
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.AssemblyInfoInputs.cache
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.AssemblyInfo.cs
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.csproj.CoreCompileInputs.cache
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.dll
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\refint\Frecuencias.dll
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.pdb
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.genruntimeconfig.cache
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\ref\Frecuencias.dll
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuenc.77BFE1F9.Up2Date
+C:\Users\chels\Documents\HPA III\Temas varios\Frecuencias\Frecuencias\Frecuencias\bin\Debug\net10.0\Frecuencias.exe
+C:\Users\chels\Documents\HPA III\Temas varios\Frecuencias\Frecuencias\Frecuencias\bin\Debug\net10.0\Frecuencias.deps.json
+C:\Users\chels\Documents\HPA III\Temas varios\Frecuencias\Frecuencias\Frecuencias\bin\Debug\net10.0\Frecuencias.runtimeconfig.json
+C:\Users\chels\Documents\HPA III\Temas varios\Frecuencias\Frecuencias\Frecuencias\bin\Debug\net10.0\Frecuencias.dll
+C:\Users\chels\Documents\HPA III\Temas varios\Frecuencias\Frecuencias\Frecuencias\bin\Debug\net10.0\Frecuencias.pdb
+C:\Users\chels\Documents\HPA III\Temas varios\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chels\Documents\HPA III\Temas varios\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.AssemblyInfoInputs.cache
+C:\Users\chels\Documents\HPA III\Temas varios\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.AssemblyInfo.cs
+C:\Users\chels\Documents\HPA III\Temas varios\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.csproj.CoreCompileInputs.cache
+C:\Users\chels\Documents\HPA III\Temas varios\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.dll
+C:\Users\chels\Documents\HPA III\Temas varios\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\refint\Frecuencias.dll
+C:\Users\chels\Documents\HPA III\Temas varios\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.pdb
+C:\Users\chels\Documents\HPA III\Temas varios\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuencias.genruntimeconfig.cache
+C:\Users\chels\Documents\HPA III\Temas varios\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\ref\Frecuencias.dll
+C:\Users\chels\Documents\HPA III\Temas varios\Frecuencias\Frecuencias\Frecuencias\obj\Debug\net10.0\Frecuenc.77BFE1F9.Up2Date
