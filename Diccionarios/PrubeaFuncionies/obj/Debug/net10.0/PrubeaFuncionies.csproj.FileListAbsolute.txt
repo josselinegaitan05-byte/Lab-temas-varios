@@ -1,0 +1,44 @@
+C:\Users\julia\OneDrive\Documentos\HPA III\PrubeaFuncionies\PrubeaFuncionies\bin\Debug\net10.0\PrubeaFuncionies.exe
+C:\Users\julia\OneDrive\Documentos\HPA III\PrubeaFuncionies\PrubeaFuncionies\bin\Debug\net10.0\PrubeaFuncionies.deps.json
+C:\Users\julia\OneDrive\Documentos\HPA III\PrubeaFuncionies\PrubeaFuncionies\bin\Debug\net10.0\PrubeaFuncionies.runtimeconfig.json
+C:\Users\julia\OneDrive\Documentos\HPA III\PrubeaFuncionies\PrubeaFuncionies\bin\Debug\net10.0\PrubeaFuncionies.dll
+C:\Users\julia\OneDrive\Documentos\HPA III\PrubeaFuncionies\PrubeaFuncionies\bin\Debug\net10.0\PrubeaFuncionies.pdb
+C:\Users\julia\OneDrive\Documentos\HPA III\PrubeaFuncionies\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julia\OneDrive\Documentos\HPA III\PrubeaFuncionies\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.AssemblyInfoInputs.cache
+C:\Users\julia\OneDrive\Documentos\HPA III\PrubeaFuncionies\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.AssemblyInfo.cs
+C:\Users\julia\OneDrive\Documentos\HPA III\PrubeaFuncionies\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.csproj.CoreCompileInputs.cache
+C:\Users\julia\OneDrive\Documentos\HPA III\PrubeaFuncionies\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.dll
+C:\Users\julia\OneDrive\Documentos\HPA III\PrubeaFuncionies\PrubeaFuncionies\obj\Debug\net10.0\refint\PrubeaFuncionies.dll
+C:\Users\julia\OneDrive\Documentos\HPA III\PrubeaFuncionies\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.pdb
+C:\Users\julia\OneDrive\Documentos\HPA III\PrubeaFuncionies\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.genruntimeconfig.cache
+C:\Users\julia\OneDrive\Documentos\HPA III\PrubeaFuncionies\PrubeaFuncionies\obj\Debug\net10.0\ref\PrubeaFuncionies.dll
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Diccionarios\PrubeaFuncionies\bin\Debug\net10.0\PrubeaFuncionies.exe
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Diccionarios\PrubeaFuncionies\bin\Debug\net10.0\PrubeaFuncionies.deps.json
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Diccionarios\PrubeaFuncionies\bin\Debug\net10.0\PrubeaFuncionies.runtimeconfig.json
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Diccionarios\PrubeaFuncionies\bin\Debug\net10.0\PrubeaFuncionies.dll
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Diccionarios\PrubeaFuncionies\bin\Debug\net10.0\PrubeaFuncionies.pdb
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.AssemblyInfoInputs.cache
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.AssemblyInfo.cs
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.csproj.CoreCompileInputs.cache
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.dll
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\refint\PrubeaFuncionies.dll
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.pdb
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.genruntimeconfig.cache
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\ref\PrubeaFuncionies.dll
+C:\Users\chels\Documents\HPA III\Problemas en clase\Problemas en clase\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFu.C70C2E5A.Up2Date
+C:\Users\chels\Documents\HPA III\Temas varios\Diccionarios\PrubeaFuncionies\bin\Debug\net10.0\PrubeaFuncionies.exe
+C:\Users\chels\Documents\HPA III\Temas varios\Diccionarios\PrubeaFuncionies\bin\Debug\net10.0\PrubeaFuncionies.deps.json
+C:\Users\chels\Documents\HPA III\Temas varios\Diccionarios\PrubeaFuncionies\bin\Debug\net10.0\PrubeaFuncionies.runtimeconfig.json
+C:\Users\chels\Documents\HPA III\Temas varios\Diccionarios\PrubeaFuncionies\bin\Debug\net10.0\PrubeaFuncionies.dll
+C:\Users\chels\Documents\HPA III\Temas varios\Diccionarios\PrubeaFuncionies\bin\Debug\net10.0\PrubeaFuncionies.pdb
+C:\Users\chels\Documents\HPA III\Temas varios\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\chels\Documents\HPA III\Temas varios\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.AssemblyInfoInputs.cache
+C:\Users\chels\Documents\HPA III\Temas varios\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.AssemblyInfo.cs
+C:\Users\chels\Documents\HPA III\Temas varios\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.csproj.CoreCompileInputs.cache
+C:\Users\chels\Documents\HPA III\Temas varios\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.dll
+C:\Users\chels\Documents\HPA III\Temas varios\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\refint\PrubeaFuncionies.dll
+C:\Users\chels\Documents\HPA III\Temas varios\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.pdb
+C:\Users\chels\Documents\HPA III\Temas varios\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFuncionies.genruntimeconfig.cache
+C:\Users\chels\Documents\HPA III\Temas varios\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\ref\PrubeaFuncionies.dll
+C:\Users\chels\Documents\HPA III\Temas varios\Diccionarios\PrubeaFuncionies\obj\Debug\net10.0\PrubeaFu.C70C2E5A.Up2Date
