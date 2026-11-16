@@ -1,193 +1,187 @@
-<div align="center">
+# Temas varios – Laboratorio de C# y SQL
 
-# Laboratorio de Temas Varios
-### Repaso del CRUD, Inyección SQL, Consultas Parametrizadas, Métodos Sobrecargados, Recursividad y Frecuencias
+Colección de ejercicios cortos en **C# (.NET 10)** y un script **SQL (MySQL)** que practican conceptos básicos de programación: recursividad, sobrecarga de métodos, diccionarios, generación de consultas SQL parametrizadas, simulación con números aleatorios y una demostración de inyección SQL.
 
-**Universidad Tecnológica de Panamá**
-Facultad de Ingeniería en Sistemas · Campus Víctor Levis Sasso
-**Materia:** Herramientas de la Programación Aplicada III (.NET) · **Grupo:** 1IL133
-**Módulo IV:** Acceso a base de datos – Aplicaciones en capas
-**Instructora:** Ing. Irina Fong
-**Estudiante:** NOMBRE APELLIDO · Cédula: X-XXX-XXXX
-**Fecha de entrega:** XX de octubre de 2026 · II Semestre 2026
+## Contenido
 
-</div>
+| Carpeta | Tema | Qué demuestra |
+|---|---|---|
+| `Factorial/` | Recursividad | Calcula el factorial de 0 a 10 con un método recursivo (`FactorialMetodo`). |
+| `Frecuencias/` | Números aleatorios y `switch` | Simula 6000 tiros de un dado y cuenta la frecuencia de cada cara. |
+| `SobreCargados/` | Sobrecarga de métodos | Clase `Operaciones` con dos versiones de `Cuadrado` (`int` y `double`). |
+| `Diccionarios/` | `Dictionary<string, object>` | Recorre un diccionario de inventario y genera dinámicamente la cláusula `SET` y un `INSERT` con parámetros. |
+| `Consultas SQL/` | SQL | Crea la tabla `permisos`, inserta datos de prueba y ejecuta consultas de ejemplo de inyección SQL. |
 
----
+## Requisitos
 
-## Tabla de contenido
-1. [Tecnologías y versiones](#tecnologías-y-versiones)
-2. [Estructura del repositorio](#estructura-del-repositorio)
-3. [Guía de instalación y uso](#guía-de-instalación-y-uso)
-4. [Problema 1: CRUD y consultas SQL](#problema-1-crud-y-consultas-sql)
-5. [Problema 2: Armado de INSERT/UPDATE e inyección SQL](#problema-2-armado-de-insertupdate-e-inyección-sql)
-6. [Problema 3: Métodos sobrecargados](#problema-3-métodos-sobrecargados)
-7. [Problema 4: Recursividad (factorial)](#problema-4-recursividad-factorial)
-8. [Problema 5: Frecuencias](#problema-5-frecuencias)
-9. [Conclusiones](#conclusiones)
+- [.NET SDK 10](https://dotnet.microsoft.com/download) (los proyectos apuntan a `net10.0`).
+- Visual Studio 2022/2026 o la CLI de `dotnet`.
+- MySQL / MariaDB con una base de datos llamada `productosdb` (solo para el script SQL).
 
----
+## Cómo ejecutar los proyectos C#
 
-## Tecnologías y versiones
+Desde la carpeta de cada proyecto (la que contiene el `.csproj`):
 
-| Componente | Versión |
-|---|---|
-| SDK de .NET (escenarios de consola) | **.NET 10.0** (`net10.0`) |
-| Lenguaje | **C# 14** |
-| Proyecto CRUD | .NET Framework **4.7.2** (Windows Forms) |
-| Base de datos | MySQL (`productosdb`) |
-| Conector | MySql.Data 26.7.0 (NuGet) |
-| IDE | Visual Studio 2026 |
+```bash
+dotnet run
+```
 
-Comprobar la versión instalada: `dotnet --version`
+Rutas de los proyectos:
+
+```text
+Factorial/Factorial/Factorial/
+Frecuencias/Frecuencias/Frecuencias/
+SobreCargados/SobreCargados/
+Diccionarios/PrubeaFuncionies/
+```
+
+También puedes abrir el archivo `.slnx` de cada carpeta en Visual Studio y pulsar **F5**.
+
+## Detalle de cada ejercicio
+
+### 1. Factorial
+Imprime `n = n!` para `n` de 0 a 10. El método usa un caso base (`numero <= 1` devuelve 1) y un paso recursivo (`numero * FactorialMetodo(numero - 1)`). Se usa `long` para evitar desbordamientos en este rango.
+
+```text
+0 = 1
+1 = 1
+2 = 2
+...
+10 = 3628800
+```
+
+### 2. Frecuencias
+Lanza un dado 6000 veces con `Random.Next(1, 7)` y acumula cada resultado en seis contadores mediante `switch`. Al final imprime una tabla Cara / Frecuencia. Cada cara debería salir cerca de 1000 veces; los valores cambian en cada ejecución.
+
+### 3. SobreCargados
+La clase `Operaciones` define dos métodos con el mismo nombre y distinto tipo de parámetro:
+
+- `int Cuadrado(int valorInt)`
+- `double Cuadrado(double valorDouble)`
+
+El compilador elige la versión según el argumento: `Cuadrado(5)` usa `int` y `Cuadrado(4.5)` usa `double`. El programa espera una tecla al final (`Console.ReadKey()`).
+
+### 4. Diccionarios
+Parte de un diccionario con los datos de un producto (`Nombre`, `Precio`, `Cantidad`) y:
+
+1. Muestra cada par clave/valor.
+2. Genera la cláusula `SET`: `Nombre = @Nombre, Precio = @Precio, Cantidad = @Cantidad`.
+3. Construye un `INSERT INTO productos (...) VALUES (@..., ...)` usando **parámetros** (`@campo`) en lugar de concatenar valores.
+
+> Los nombres de las columnas salen de las claves del diccionario. Si esas claves pudieran venir del usuario, hay que validarlas contra una lista de columnas permitidas.
+
+### 5. Consultas SQL
+El script `Consultas SQL.sql`:
+
+- Usa la base `productosdb`.
+- Crea la tabla `permisos` (usuario, contraseña, correo, módulos, etc.) e inserta cuatro registros de ejemplo.
+- Incluye consultas de prueba que ilustran inyección SQL:
+  - Bypass de autenticación con `OR '1'='1'`.
+  - Comentarios SQL para anular parte de la condición.
+  - Inyección ciega basada en tiempo con `SLEEP(15)`.
+
+Ejecución:
+
+```bash
+mysql -u <usuario> -p productosdb < "Consultas SQL/Consultas SQL.sql"
+```
+
+## Capturas de ejecución
+
+Guarda las capturas en la carpeta `capturas/` con estos nombres (el README ya las enlaza).
+
+### Factorial
+<img width="1471" height="745" alt="image" src="https://github.com/user-attachments/assets/15a3be46-b8b1-4a62-b87e-f0f88cee8c89" />
+
+
+### Frecuencias
+<img width="1480" height="763" alt="image" src="https://github.com/user-attachments/assets/ef42ffb3-080b-48e4-8d1a-0a11d1970a4d" />
+
+
+### SobreCargados
+Salida esperada:
+
+```text
+Se llamó a Cuadrado con argumento int: 5
+Resultado entero: 25
+
+Se llamó a Cuadrado con argumento double: 4.5
+Resultado double: 20.25
+```
+
+<img width="1473" height="747" alt="image" src="https://github.com/user-attachments/assets/d1cd7099-a56d-434f-93f3-87a41e66e3bd" />
+
+
+### Diccionarios
+Salida esperada:
+
+```text
+--- Contenido del Diccionario ---
+Clave: Nombre | Valor: Laptop HP Envy
+Clave: Precio | Valor: 850.99
+Clave: Cantidad | Valor: 15
+---------------------------------
+
+Cláusula SET generada: Nombre = @Nombre, Precio = @Precio, Cantidad = @Cantidad
+la cadena sql es: INSERT INTO productos (Nombre, Precio, Cantidad) VALUES (@Nombre, @Precio, @Cantidad)
+```
+
+<img width="1472" height="756" alt="image" src="https://github.com/user-attachments/assets/6ee248ee-8865-4974-b73d-20b86b87a567" />
+
+
+### Consultas SQL
+<img width="1410" height="830" alt="Captura de pantalla 2026-11-16 103949" src="https://github.com/user-attachments/assets/5327fe7c-8fcd-4432-8e9a-050155aca2f6" />
+
+
+## Notas de seguridad
+
+- Las consultas de inyección SQL son **solo con fines educativos**; ejecútalas únicamente en una base de datos local de pruebas.
+- La defensa correcta es usar **consultas parametrizadas** (como en el ejercicio de Diccionarios), no concatenar texto del usuario.
+- El script SQL contiene contraseñas codificadas en Base64. Base64 **no es cifrado**: se decodifica de forma trivial. Si son datos reales, cámbialas y no las subas a un repositorio público; en una aplicación real se guardan con un hash con sal (bcrypt, Argon2).
 
 ## Estructura del repositorio
 
-```
-Lab_Sobrecarga_CRUD/
-├── Lab_Sobrecarga.slnx                       # Solución con los escenarios de consola
-├── Escenario1_CRUD_SQL/                      # Problema 2: cadenas, inyección SQL, parámetros
-├── Escenario2_Sobrecarga_Recursividad/       # Problemas 3 y 4: sobrecarga y factorial
-├── Escenario3_Frecuencias/                   # Problema 5: frecuencias
-├── ProyectoProductos_CRUD/                   # Problema 1: CRUD Windows Forms + MySQL
-│   └── crear_base_datos.sql                  # Script de la base de datos
-├── evidencias/                               # Capturas de pantalla
-├── .gitignore
-└── README.md
-```
-
-## Guía de instalación y uso
-
-### Escenarios de consola (.NET 10)
-```bash
-git clone <URL-DEL-REPOSITORIO>
-cd Lab_Sobrecarga_CRUD
-dotnet restore Lab_Sobrecarga.slnx
-dotnet build Lab_Sobrecarga.slnx
-
-dotnet run --project Escenario1_CRUD_SQL
-dotnet run --project Escenario2_Sobrecarga_Recursividad
-dotnet run --project Escenario3_Frecuencias
-```
-En Visual Studio: abrir `Lab_Sobrecarga.slnx`, clic derecho sobre el proyecto → *Establecer como proyecto de inicio* → `Ctrl+F5`.
-
-### Proyecto CRUD (requiere Windows y MySQL)
-1. Ejecutar `ProyectoProductos_CRUD/crear_base_datos.sql` en MySQL para crear la base `productosdb` y la tabla `productos`.
-2. En `ProyectoProductos_CRUD/ProyectoProductos/Conexion.cs`, ajustar `Uid` y `Pwd` con las credenciales propias de MySQL.
-3. Abrir `ProyectoProductos_CRUD/ProyectoProductos.sln` en Visual Studio (restaura los paquetes NuGet automáticamente) y presionar `F5`.
-
----
-
-## Problema 1: CRUD y consultas SQL
-
-Aplicación Windows Forms que gestiona la tabla `productos` (`id`, `nombre`, `precio`, `cantidad`, `imagen`). Implementa las operaciones del CRUD, todas con consultas parametrizadas:
-
-| Operación | Método (`Conexion.cs`) | Sentencia |
-|---|---|---|
-| Consultar / buscar | `GetProductos(filtro)` | `SELECT ... WHERE ... LIKE @filtro` |
-| Insertar | `InsertSeguro(tabla, datos)` | `INSERT INTO ... VALUES (@...)` |
-| Modificar | `UpdateSeguro(tabla, datos, id)` | `UPDATE ... SET col = @col WHERE id = @idWhere` |
-| Eliminar | `DeleteSeguro(tabla, id)` | `DELETE FROM ... WHERE id = @id` |
-
-
-
----
-
-## Problema 2: Armado de INSERT/UPDATE e inyección SQL
-
-Se construyen las sentencias `INSERT` y `UPDATE` manipulando cadenas, en dos versiones:
-
-- **Insegura:** concatena los valores dentro del SQL.
-- **Segura:** usa parámetros (`@campo`), que viajan separados de la sentencia.
-
-```csharp
-// INSEGURA: el texto del usuario pasa a formar parte del SQL
-$"UPDATE {tabla} SET {set} WHERE {columnaId} = '{valorId}'"
-
-// SEGURA: el valor es un parámetro, nunca código
-$"UPDATE {tabla} SET {set} WHERE {columnaId} = @{columnaId}"
+```text
+Temas varios/
+├── Consultas SQL/
+│   └── Consultas SQL.sql
+├── Diccionarios/
+│   └── PrubeaFuncionies/        # Program.cs
+├── Factorial/
+│   └── Factorial/Factorial/     # Program.cs
+├── Frecuencias/
+│   └── Frecuencias/Frecuencias/ # Program.cs
+└── SobreCargados/
+    └── SobreCargados/           # Program.cs, sobreCargados.cs
 ```
 
-Con el id `7' OR '1'='1`, la versión insegura produce `... WHERE Id = '7' OR '1'='1'`, condición siempre verdadera que modificaría **todas** las filas. Con el nombre `x'); DROP TABLE productos; --` el `INSERT` se rompe y agrega un `DROP TABLE`. La versión parametrizada trata ambos textos como simples datos.
+## Recomendación para Git
 
-**Evidencia:**
+Las carpetas `bin/`, `obj/` y `.vs/` son generadas por Visual Studio. Agrega un `.gitignore` para no versionarlas:
 
-<img width="1917" height="851" alt="image" src="https://github.com/user-attachments/assets/cd045a98-335b-4e5f-bf23-c7db6f02ff8a" />
-
-
----
-
-## Problema 3: Métodos sobrecargados
-
-La clase `Calculadora` define varios métodos con el mismo nombre y distinta firma:
-
-| Método | Firmas |
-|---|---|
-| `Cuadrado` | `(int)`, `(double)`, `(decimal)` |
-| `Sumar` | `(int, int)`, `(int, int, int)`, `(double, double)`, `(int[])` |
-| `RegistrarProducto` | `(string)`, `(string, decimal)`, `(string, decimal, int)` |
-
-El compilador elige la versión según el número y tipo de argumentos.
-
-**Evidencia:**
-
-<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/d204a9cb-eb6f-4e7b-8a19-e5032eb70b81" />
-
-
----
-
-## Problema 4: Recursividad (factorial)
-
-```csharp
-public static long Factorial(long n)
-{
-    if (n < 0)  throw new ArgumentOutOfRangeException(nameof(n), "No definido para negativos.");
-    if (n > 20) throw new ArgumentOutOfRangeException(nameof(n), "21! desborda un long.");
-
-    if (n <= 1) return 1;          // caso base: detiene la recursión
-    return n * Factorial(n - 1);   // paso recursivo: se acerca al caso base
-}
+```gitignore
+bin/
+obj/
+.vs/
 ```
 
-El caso base `n <= 1` evita el `StackOverflow`; la validación del rango (0 a 20) evita el desbordamiento del tipo `long`. Resultado: `10! = 3 628 800` y `20! = 2 432 902 008 176 640 000`.
+## Bibliografía
 
-**Evidencia:**
+**Libro**
 
-<img width="1917" height="967" alt="image" src="https://github.com/user-attachments/assets/65b267fc-4b99-4796-98d0-2fe4e7647b5b" />
+- Deitel, P. & Deitel, H. *Visual C# How to Program*. Pearson. (Los ejercicios de recursividad, lanzamiento de dados y sobrecarga de métodos siguen el estilo de este texto; ajusta la edición y el año a la de tu curso.)
 
+**Documentación oficial de C# / .NET**
 
----
+- Microsoft. *Métodos (Guía de programación de C#)*. <https://learn.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/methods>
+- Microsoft. *Clase `Dictionary<TKey,TValue>`*. <https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.dictionary-2>
+- Microsoft. *Clase `Random`*. <https://learn.microsoft.com/en-us/dotnet/api/system.random>
+- Microsoft. *Instrucciones de selección (`if`, `switch`)*. <https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/selection-statements>
+- Microsoft. *Instrucciones de iteración (`for`, `foreach`)*. <https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/statements/iteration-statements>
 
-## Problema 5: Frecuencias
+**SQL y seguridad**
 
-`Frecuencias.Contar` recorre los datos una sola vez y usa un diccionario ordenado (`SortedDictionary<int,int>`) para acumular cuántas veces aparece cada número. Se probó con un arreglo fijo y con una simulación de 6000 tiros de dado (la suma de las frecuencias da 6000).
-
-```csharp
-foreach (int n in datos)
-{
-    frecuencias.TryGetValue(n, out int actual);
-    frecuencias[n] = actual + 1;
-}
-```
-
-**Evidencia:**
-
-<img width="1467" height="690" alt="image" src="https://github.com/user-attachments/assets/495e514b-55f8-4d0b-828e-bfc2747f0493" />
-
-
----
-
-## Conclusiones
-
-- Concatenar texto del usuario dentro de una sentencia SQL permite que este altere su significado; los parámetros (`@campo`) separan el código de los datos y son obligatorios.
-- La sobrecarga de métodos permite reutilizar un nombre con distintas firmas, lo que hace el código más legible y modular.
-- Toda función recursiva necesita un caso base y avanzar hacia él; además hay que vigilar el límite del tipo de dato.
-- Un diccionario permite contar frecuencias con una sola pasada sobre los datos.
-
----
-
-<div align="center">
-
-*Universidad Tecnológica de Panamá · Herramientas de la Programación Aplicada III (.NET) · Grupo 1IL133 · Entrega: XX de octubre de 2026*
-
-</div>
+- MySQL. *MySQL 8.0 Reference Manual – Miscellaneous Functions (`SLEEP()`)*. <https://dev.mysql.com/doc/refman/8.0/en/miscellaneous-functions.html>
+- OWASP. *SQL Injection*. <https://owasp.org/www-community/attacks/SQL_Injection>
+- OWASP. *Query Parameterization Cheat Sheet*. <https://cheatsheetseries.owasp.org/cheatsheets/Query_Parameterization_Cheat_Sheet.html>
+- OWASP. *Password Storage Cheat Sheet*. <https://cheatsheetseries.owasp.org/cheatsheets/Password_Storage_Cheat_Sheet.html>
